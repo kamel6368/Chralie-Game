@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Props">
+      <UniqueIdentifier>{5034c62e-b178-4177-8d35-51799c8eb6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tech">
+      <UniqueIdentifier>{39aa7254-9f55-42f5-90b2-b2a346505832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Props">
+      <UniqueIdentifier>{8b08ea3b-4f2a-406f-ac69-be3b1adca0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tech">
+      <UniqueIdentifier>{eceb12f4-6606-4c3e-bd71-67685904de39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{bb1a7d78-93a9-4354-895d-58b96cb97811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{506d2a16-b602-42d3-a598-0e1fdb9f32cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MainControl">
+      <UniqueIdentifier>{ff36e469-fb79-4ae1-8476-4b0b350562d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainControl">
+      <UniqueIdentifier>{58ffab30-62f3-45dd-9ccf-6c36fefb6011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Constants">
+      <UniqueIdentifier>{f6bf33dd-0f34-45b0-9b7b-9a4252b72314}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="Charlie.cpp">
+      <Filter>Source Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Source Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="Initializer.cpp">
+      <Filter>Source Files\Tech</Filter>
+    </ClCompile>
+    <ClCompile Include="WallSet.cpp">
+      <Filter>Source Files\Tech</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files\Tech</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletSet.cpp">
+      <Filter>Source Files\Tech</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Source Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="Container.cpp">
+      <Filter>Source Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files\Tech</Filter>
+    </ClCompile>
+    <ClCompile Include="Crossing.cpp">
+      <Filter>Source Files\Tech</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieSet.cpp">
+      <Filter>Source Files\Tech</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerSet.cpp">
+      <Filter>Source Files\Tech</Filter>
+    </ClCompile>
+    <ClCompile Include="MainControl.cpp">
+      <Filter>Source Files\MainControl</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandler.cpp">
+      <Filter>Source Files\Tech</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="Charlie.h">
+      <Filter>Header Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Header Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Header Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Header Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\Tech</Filter>
+    </ClInclude>
+    <ClInclude Include="Initializer.h">
+      <Filter>Header Files\Tech</Filter>
+    </ClInclude>
+    <ClInclude Include="WallSet.h">
+      <Filter>Header Files\Tech</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletSet.h">
+      <Filter>Header Files\Tech</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files\Tech</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossing.h">
+      <Filter>Header Files\Tech</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieSet.h">
+      <Filter>Header Files\Tech</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerSet.h">
+      <Filter>Header Files\Tech</Filter>
+    </ClInclude>
+    <ClInclude Include="MainControl.h">
+      <Filter>Header Files\MainControl</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHandler.h">
+      <Filter>Header Files\Tech</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConsts.h">
+      <Filter>Header Files\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeConsts.h">
+      <Filter>Header Files\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="PropsConsts.h">
+      <Filter>Header Files\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="FileConsts.h">
+      <Filter>Header Files\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="WallConsts.h">
+      <Filter>Header Files\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="BarriersConsts.h">
+      <Filter>Header Files\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossingConsts.h">
+      <Filter>Header Files\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundConsts.h">
+      <Filter>Header Files\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="WavesConsts.h">
+      <Filter>Header Files\Constants</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

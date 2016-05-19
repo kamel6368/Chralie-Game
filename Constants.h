@@ -1,0 +1,10 @@
+#pragma once
+#include "BackgroundConsts.h"
+#include "BarriersConsts.h"
+#include "CrossingConsts.h"
+#include "FileConsts.h"
+#include "GameConsts.h"
+#include "PropsConsts.h"
+#include "TimeConsts.h"
+#include "WallConsts.h"
+#include "WavesConsts.h"
